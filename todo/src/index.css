@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active{
+    color: hsl(220, 98%, 61%)
+}
+@font-face {
+    font-family:"specimen" ;
+    src: url('https://fonts.google.com/specimen/Josefin+Sans');
+}
+body{
+    font-family: specimen,ui,sans-serif
+}
